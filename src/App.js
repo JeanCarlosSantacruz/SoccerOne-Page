@@ -28,7 +28,7 @@ function App() {
       
       <a className='links' href='/QuienesSomos'>¿Quienes Somos?</a> 
       <a className='links' href='/'>Ver más</a> 
-      <a className='links' href='/'>Contactanos</a> 
+      <a className='links' href='/Contactanos'>Contactanos</a> 
     </div>
   );
 }

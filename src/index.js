@@ -10,6 +10,7 @@ import Registro from './components/Registro/Registro';
 import Selecciones from './components/Selecciones/Selecciones';
 import Torneos from './components/Torneos/Torneos';
 import Prueba from './components/Prueba/Prueba';
+import Contactanos from './components/Contactanos/Contactanos';
 import {Routes, Route, BrowserRouter} from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -27,6 +28,7 @@ root.render(
         <Route path="/Registro" element={<Registro/>}/>
         <Route path="/IniciarSesion" element={<IniciarSesion/>}/>
         <Route path='/Prueba' element={<Prueba/>}/>
+        <Route path='/Contactanos' element={<Contactanos/>}/>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

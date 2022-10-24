@@ -4,17 +4,18 @@ import React from "react";
 import Cards from './cards';
 
 function Ligas(){
-  
-  return<div>
+  return(
+  <div className='ligasMain'>
     <Navbar/>
-      <h1 className='soccer'>
+      <h1 className='soccerL'>
         SOCCER
       </h1>
-      <h1 className='one'>
+      <h1 className='oneL'>
         ONE
       </h1>
     <Cards/>
   </div>
+  )
 }
 
 

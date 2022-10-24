@@ -4,13 +4,14 @@ import './Ligas.css'
 import   premierleage from './img/Premier-League-Logo.png'
 import laliga from './img/laliga.png'
 import bundesliga from './img/bundesliga.png'
+import bundes from './img/bundes.png'
 
 
 const card = [
   {
     id: 1,
     title: 'Premier leage',
-    image: premierleage,
+    image: premierleage, 
     dat: 'La Premier League, también conocida en Inglaterra como The Premiership, es la máxima categoría del sistema de ligas de fútbol de Inglaterra.'
 
   },
@@ -25,7 +26,7 @@ const card = [
   {
     id: 3,
     title: 'Bundesliga',
-    image: bundesliga,
+    image: bundes,
     dat: 'La Bundesliga es la competición entre los equipos de fútbol de la máxima categoría de Alemania. Se empezó a disputar en 1963,'
 
   }
