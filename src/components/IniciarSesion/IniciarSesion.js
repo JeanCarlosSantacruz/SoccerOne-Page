@@ -1,11 +1,14 @@
 import Navbar from '../Navbar/Navbar';
 import './IniciarSesion.css'
+import logo from '../soccerone3.svg';
 
 
 function IniciarSesion(){
   return<div className='Login'>
-    <form action="">
-      <h1 class='title'>Login</h1>
+    <div class='title'>
+      <img src={logo} alt= "logo" className='logo'/>{} 
+    </div>
+    <form >
       <label>
         <i class="fa-solid fa-user"></i>
         <input placeholder="usuario"type="text" id="usuario"></input>
@@ -16,7 +19,7 @@ function IniciarSesion(){
       </label>
       <a href='#' class="link">¿Has olvidado tu contraseña?</a>
       <div >
-        <a href='/' class="link">Crear cuenta</a>  <a href='/' class="link">Cancelar</a>
+        <a href='/Registro' class="link">Crear cuenta</a>  <a href='/' class="link">Cancelar</a>
       </div>
       <button id="button" >Iniciar sesion</button>
     </form>
