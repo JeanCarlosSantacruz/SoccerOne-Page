@@ -14,7 +14,6 @@ function Card({title, imageSource , dat}) {
         <button className='botn1'>Ir a la liga</button>
       </div>
     </div>
- 
   )
 }
 

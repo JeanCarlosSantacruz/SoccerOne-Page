@@ -13,17 +13,7 @@ function Ligas(){
       <h1 className='one'>
         ONE
       </h1>
-      <h2 className='subText'>
-        Todo lo que buscas
-      </h2>
-      <h2 className='subText2'>
-        sobre futbol!
-      </h2>
-
     <Cards/>
-
-
-    
   </div>
 }
 

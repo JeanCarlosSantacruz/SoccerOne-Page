@@ -52,7 +52,6 @@
 
 
 .cardprincipal{
- 
   position: relative;
   top: -230px;
   width: 350px;
@@ -62,25 +61,3 @@
 
 }
 
-.soccer{
-  position: relative;
-  top: 20px;
-  left: -550px;
-  font-family: 'Poppins',sans-serif;
-  font-style: italic;
-  font-weight: bold;
-  font-size: 100px;
-
-  color: black;
-}
-
-.one{
-  position: relative;
-  top: -162px;
-  left: -226px;
-  font-family: 'Poppins',sans-serif;
-  font-style: italic;
-  font-weight: lighter;
-  font-size: 100px;
-  color: black;
-}

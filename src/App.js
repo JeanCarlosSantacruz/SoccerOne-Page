@@ -25,9 +25,10 @@ function App() {
       <h2 className='subText2'>
         sobre futbol!
       </h2>
-      <div>
-        <Buttonini/>
-      </div>
+      
+      <a className='links' href='/QuienesSomos'>¿Quienes Somos?</a> 
+      <a className='links' href='/'>Ver más</a> 
+      <a className='links' href='/'>Contactanos</a> 
     </div>
   );
 }

@@ -1,6 +1,6 @@
 .App {
   position: relative;
-  text-align: center;
+  text-align: right;
   width:100% !important;
   background: rgb(255,255,255);
   background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,60,120,0.4654236694677871) 100%);
@@ -32,7 +32,7 @@
 .soccer{
   position: relative;
   top: 20px;
-  left: -150px;
+  right: 830px;
   font-family: 'Poppins',sans-serif;
   font-style: italic;
   font-weight: bold;
@@ -44,7 +44,7 @@
 .one{
   position: relative;
   top: -162px;
-  left: 174px;
+  right: 620px;
   font-family: 'Poppins',sans-serif;
   font-style: italic;
   font-weight: lighter;
@@ -54,17 +54,46 @@
 
 .subText{
   position: relative;
-  top: -200px;
+  top: -135px;
   font-size: 30px;
-  left: -600px;
+  left: -670px;
   font-size: 60px;
-
+  
 }
 
 .subText2{
   position: relative;
-  top: -265px;
+  top: -200px;
   font-size: 30px;
-  left: -680px;
+  left: -760px;
   font-size: 60px;
 }
+
+.links{
+  position: relative;
+  left: -630px;
+  top: -160px;
+  display: inline;
+  text-align: center;
+  width: 150px;
+  font-weight: 700;
+  padding: 15px 40px;
+  border-radius: 25px;
+  background-color: black;
+  background-position: left;
+  box-shadow: inset 0 0 0 0 #ff3c78;
+  text-decoration: none;
+  font-family: 'Poppins',sans-serif;
+  color: #a0a0a0;
+  letter-spacing: 0.5px;
+  transition: .7s;
+  margin: 10px;
+}
+
+.links:hover {
+  box-shadow: inset 265px 0 0 0 #ff3c78;
+  cursor: pointer;
+  color: aliceblue;
+  font-size: 20px;
+}
+

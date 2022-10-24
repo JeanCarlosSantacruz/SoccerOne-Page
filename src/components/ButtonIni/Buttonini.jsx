@@ -5,7 +5,7 @@ import React from "react";
 function Buttonini() {
   return (
     <div class ="botonesInicio">
-        <button >¿Quiernes somos?</button>
+        <button ><a href='/QuienesSomos'>¿Quienes Somos?</a></button>
         <button >Ver más</button>
         <button >Contactanos</button>
     </div>
