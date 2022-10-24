@@ -1,0 +1,80 @@
+.Login{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,60,120,0.4654236694677871) 100%);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  text-align: center;
+  padding: 20px 25px;
+  box-shadow: 0 5px 10px rgba(71, 3, 6, 0.7);
+}
+
+form .title {
+  color: #252525;
+  font-size: 35px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+form label {
+  margin-bottom: 35px;
+}
+
+form label .fa-solid {
+  font-size: 20px;
+  color: black;
+  margin-right: 10px;
+}
+
+form label input {
+  outline: none;
+  border: none;
+  color: #252525;
+  border-bottom: solid 1px #000000;
+  padding: 0 5px;
+  font-size: 18px;
+}
+
+form label input::placeholder {
+  color: rgba(37, 37, 37, 0.5);
+}
+
+
+form .link {
+  color:black;
+  margin-bottom: 15px;
+  transition: .2s;
+}
+
+form .link:hover {
+  font-size: 17px;
+}
+
+form button {
+  position: relative;
+  top: 7px;
+  color: #a0a0a0;
+  border: none;
+  background: black;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 25px;
+  transition: 0.2s;
+}
+
+form button:hover{
+  color:white;
+  font-size: 22px;
+}
