@@ -13,7 +13,7 @@ function App() {
       <header class='header1'>
         <Navbar/>
       </header>
-      <h1 className='soccer'>
+      <h1 id='soccer'>
         SOCCER
       </h1>
       <h1 className='one'>

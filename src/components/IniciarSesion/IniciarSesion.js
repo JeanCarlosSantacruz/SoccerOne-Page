@@ -1,6 +1,7 @@
 import Navbar from '../Navbar/Navbar';
 import './IniciarSesion.css'
 import logo from '../soccerone3.svg';
+import React from 'react';
 
 
 function IniciarSesion(){
