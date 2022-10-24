@@ -1,42 +1,39 @@
-import React from 'react'
-import CardQuienesSomos from './cardQuienesSomos';
-import './QuienesSomos.css'
-import   alejandro from './img/alejandro.jpg'
-import   jeancarlos from './img/alejandro.jpg'
+import React from 'react';
+import Card from './cardQuienesSomos';
+import './QuienesSomos.css';
+import   JeanCarlosS from './img/JeanCarlosS.JPG';
+import AlejandroC from './img/alejandro.jpg';
 
 
 
-
-const cardQuienesSomos = [
+const card = [
   {
     id: 1,
-    titleQuienesSomos: 'Jean Carlos Santacruz',
-    imageQuienesSomos: jeancarlos,
-    datQuienesSomos: 'datos.'
+    title: 'Jean Carlos Santacruz',
+    image: JeanCarlosS, 
+    dat: 'Dev Principal.'
 
   },
   {
-    id: 2,
-    titleQuienesSomos: 'Alejandro Castañeda Gualguan',
-    imageQuienesSomos: alejandro,
-    datQuienesSomos: 'datos.'
+    id: 1,
+    title: 'Alejandro Castañeda G',
+    image: AlejandroC, 
+    dat: 'Dev Principal.'
 
   }
-
-
 ]
 
 
 
-function CardsQuienesSomos() {
+function Cards() {
 
   return (
-    <div className='contenedorQuienesSomos'>
-      <div className='rowQuienesSomos'>
+    <div className='contenedor1'>
+      <div className='row1'>
         {
-          CardQuienesSomos.map(CardQuienesSomos =>(
-            <div className='Ord-card' key={CardQuienesSomos.id}>
-              <CardQuienesSomos title = {CardQuienesSomos.title}  imageSource= {CardQuienesSomos.image}  dat= {CardQuienesSomos.dat}/>
+          card.map(card =>(
+            <div className='Ord-card1' key={card.id}>
+              <Card title = {card.title}  imageSource= {card.image}  dat= {card.dat}/>
             </div>
           ))
         }
@@ -50,4 +47,4 @@ function CardsQuienesSomos() {
   )
 }
 
-export default CardsQuienesSomos;
+export default Cards
