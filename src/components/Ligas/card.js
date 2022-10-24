@@ -11,7 +11,7 @@ function Card({title, imageSource , dat}) {
       <div className='card-body'>
         <h4 className='card-title'>{title}</h4>
         <p className='card-text text-secondary'>{dat}</p>
-        <button className='botn1'>Ir a la liga</button>
+        <a className="ligasLinks" href='/Ligas'>Mas informacion</a> 
       </div>
     </div>
   )

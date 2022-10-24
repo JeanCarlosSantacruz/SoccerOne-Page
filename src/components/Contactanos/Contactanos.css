@@ -1,0 +1,32 @@
+.contactanosMain{
+  position: relative;
+  background-color: beige;
+  height: 50vh;
+}
+
+.contactanos{
+  color: aqua;
+  font-size: 20px;
+  transition: .2s;
+}
+
+.contactanos:hover{
+  color: aquamarine;
+  font-size: 26px;
+}
+
+.ImgC{
+  position: relative;
+  max-height: 100%;
+  width: 100%;
+}
+
+.contactanosT{
+  position: absolute;
+  top:200px;
+  left: 600px;
+  font-size: 100px;
+  -webkit-text-stroke: 2px black;
+  color: whitesmoke;
+  border-radius: 10px;
+}
