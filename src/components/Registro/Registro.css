@@ -1,4 +1,4 @@
-.Login{
+.Registro{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -20,9 +20,9 @@ form {
   box-shadow: 0 5px 10px rgba(71, 3, 6, 0.7);
 }
 
-.logo {
+.logoRegister{
   position: absolute;
-  margin-top: -310px;
+  margin-top: -370px;
   margin-left: 105px;
   border-radius: 15px;
   width: 200px;
