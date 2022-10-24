@@ -1,13 +1,13 @@
 import Navbar from '../Navbar/Navbar';
 import './Ligas.css'
+import Cards from './cards';
 
 function Ligas(){
   return<div>
     <Navbar/>
     <h1>Bienvenido a las ligas</h1>
-    <form action="/">
-      <button className="Boton">Home</button>
-    </form>
+
+    <Cards/>
   </div>
 }
 
