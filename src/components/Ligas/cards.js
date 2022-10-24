@@ -36,11 +36,11 @@ const card = [
 function Cards() {
 
   return (
-    <div className='container'>
+    <div className='contenedor'>
       <div className='row'>
         {
           card.map(card =>(
-            <div className='col-md-3' key={card.id}>
+            <div className='Ord-card' key={card.id}>
               <Card title = {card.title}  imageSource= {card.image}  dat= {card.dat}/>
             </div>
           ))

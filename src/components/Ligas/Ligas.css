@@ -7,15 +7,80 @@
 
 
 
-
-
 .Timg{
   width: 300px;
   height: 170px;
 }
 
+.t1{
 
-.container{
-  width: 300px;
-  height: 700px;
+
+  font-family: 'Poppins',sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 100px;
+
+  color: black;
+}
+
+.t2{
+  position: relative;
+  top: -197px;
+  left: 420px;
+  right: 100PX;
+  font-family: 'Poppins',sans-serif;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 100px;
+  color: black;
+}
+
+
+.ligas{
+  position: relative;
+  top: -230px;
+  text-decoration: underline;
+  font-family: 'Poppins',sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 80px;
+
+  color: black;
+
+}
+
+
+
+.cardprincipal{
+ 
+  position: relative;
+  top: -230px;
+  width: 350px;
+  float: left;
+  padding: 10px;
+  margin-left: 50px;
+
+}
+
+.soccer{
+  position: relative;
+  top: 20px;
+  left: -550px;
+  font-family: 'Poppins',sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 100px;
+
+  color: black;
+}
+
+.one{
+  position: relative;
+  top: -162px;
+  left: -226px;
+  font-family: 'Poppins',sans-serif;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 100px;
+  color: black;
 }
