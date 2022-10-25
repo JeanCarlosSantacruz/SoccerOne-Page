@@ -3,9 +3,7 @@ import Card from './card';
 import './Ligas.css'
 import   premierleage from './img/Premier-League-Logo.png'
 import laliga from './img/laliga.png'
-import bundesliga from './img/bundesliga.png'
 import bundes from './img/bundes.png'
-
 
 const card = [
   {
@@ -32,27 +30,17 @@ const card = [
   }
 ]
 
-
-
 function Cards() {
-
   return (
-    <div className='contenedor'>
-      <div className='row'>
+    <div className='contenedorligas'>
         {
           card.map(card =>(
             <div className='Ord-card' key={card.id}>
-              <Card title = {card.title}  imageSource= {card.image}  dat= {card.dat}/>
-            </div>
+                <Card title = {card.title}  imageSource= {card.image}  dat= {card.dat}/>
+              </div>
           ))
         }
-
-
-
       </div>
-    </div>
-
-
   )
 }
 

@@ -5,9 +5,6 @@ import JeanCarlosS from '../img/JeanCarlosS.JPG';
 import AlejandroC from '../img/alejandro.jpg';
 import costeño from '../img/costeño.jpg';
 
-
-
-
 const card = [
   {
     id: 1,
@@ -40,16 +37,12 @@ const card = [
   git: 'https://github.com'
 
 },
-
 ]
-
-
 
 function Cards() {
 
   return (
     <div className='contenedor1'>
-      <div className='row1'>
         {
           card.map(card =>(
             <div className='Ord-card1' key={card.id}>
@@ -58,9 +51,6 @@ function Cards() {
           ))
         }
       </div>
-    </div>
-
-
   )
 }
 
