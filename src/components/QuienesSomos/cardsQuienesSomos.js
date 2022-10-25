@@ -13,7 +13,7 @@ const card = [
     id: 1,
     title: 'Jean Carlos Santacruz',
     image: JeanCarlosS, 
-    dat: 'Dev Principal.',
+    dat: 'Dev front-end y back-end.',
     facebook: 'https://www.facebook.com/profile.php?id=100009248906573',
     ig: 'https://www.instagram.com/santacruzj24/?hl=fr',
     git:'https://github.com/JeanCarlosSantacruz'
@@ -24,7 +24,7 @@ const card = [
     id: 2,
     title: 'Alejandro Castañeda G',
     image: AlejandroC, 
-    dat: 'Dev Principal.',
+    dat: 'Dev back-end.',
     facebook: 'https://www.facebook.com/alejandro.castaneda.758737/',
     ig: 'https://www.instagram.com/gualguanosky/?hl=fr',
     git: 'https://github.com/Gualguanosky'
@@ -34,10 +34,10 @@ const card = [
   id: 3,
   title: 'Edinson Pedroza',
   image: costeño, 
-  dat: 'Dev Principal.',
-  facebook: 'https://www.facebook.com/alejandro.castaneda.758737/',
-  ig: 'https://www.instagram.com/gualguanosky/?hl=fr',
-  git: 'https://github.com/Gualguanosky'
+  dat: 'El Dev Carriado.',
+  facebook: 'https://www.facebook.com/edinson.pedroza.750',
+  ig: 'https://www.instagram.com/insones_t/?hl=fr',
+  git: 'https://github.com'
 
 },
 
