@@ -3,6 +3,7 @@ import Card from './cardQuienesSomos';
 import './QuienesSomos.css';
 import   JeanCarlosS from './img/JeanCarlosS.JPG';
 import AlejandroC from './img/alejandro.jpg';
+import costeño from './img/costeño.jpg';
 
 
 
@@ -19,7 +20,7 @@ const card = [
 
   },
   {
-    id: 1,
+    id: 2,
     title: 'Alejandro Castañeda G',
     image: AlejandroC, 
     dat: 'Dev Principal.',
@@ -27,7 +28,18 @@ const card = [
     ig: 'https://www.instagram.com/gualguanosky/?hl=fr',
     git: 'https://github.com/Gualguanosky'
 
-  }
+  },
+  {
+  id: 3,
+  title: 'Edinson Pedroza',
+  image: costeño, 
+  dat: 'Dev Principal.',
+  facebook: 'https://www.facebook.com/alejandro.castaneda.758737/',
+  ig: 'https://www.instagram.com/gualguanosky/?hl=fr',
+  git: 'https://github.com/Gualguanosky'
+
+},
+
 ]
 
 
