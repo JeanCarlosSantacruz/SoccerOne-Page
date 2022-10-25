@@ -1,7 +1,4 @@
 
-.contenedorligas{
-  background-color: #6EF709;
-}
 
 
 .Timg{
@@ -10,7 +7,15 @@
   border-radius:250px;
   transition: .6s;
 }
-
+.Timg:hover{
+  border-radius:50%;
+  -webkit-border-radius:50%;
+  box-shadow: 0px 0px 15px 15px rgb(56, 56, 56);
+  -webkit-box-shadow: 0px 0px 15px 15px rgb(56, 56, 56);
+  transform: rotate(360deg);
+  height: 190px;
+  width: 190px;
+}
 .t1{
 
 
@@ -34,6 +39,11 @@
   color: black;
 }
 
+#ligaTittle{
+  position: relative;
+  top: 20px;
+  font-size: 50px;
+}
 
 .ligas{
   position: relative;
@@ -61,7 +71,8 @@
 
 .cardprincipal{
   position: relative;
-  left: 300px;
+  top: 100px;
+  left: 470px;
   width: 270px;
   height: 400px;
   padding: 10px;
@@ -69,6 +80,7 @@
   border-color:#0000;
   border: black 3px solid;
   border-radius: 50px;
+  
 }
 
 .ligasLinks{
@@ -88,6 +100,7 @@
   letter-spacing: 0.5px;
   transition: .7s;
   margin: 10px;
+  align-items: center;
 }
 
 .ligasLinks:hover{
@@ -122,4 +135,9 @@
 
 .cartas{
   background-color: black;
+}
+
+.containerLigas{
+  display: flex;
+  align-items: center;
 }

@@ -23,7 +23,7 @@ function Card({title, imageSource, face , ig , git ,dat}) {
           </a>
         </div>
         <br></br>
-        <a className="ligasLinks1" href='/Ligas'>Mas informacion</a> 
+        <a className="ligasLinks1" href='*'>Mas informacion</a> 
       </div>
     </div>
   )

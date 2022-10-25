@@ -11,6 +11,7 @@ import Selecciones from './components/Selecciones/Selecciones';
 import Torneos from './components/Torneos/Torneos';
 import Prueba from './components/Prueba/Prueba';
 import Contactanos from './components/Contactanos/Contactanos';
+import Error404 from './components/Error404/Error404';
 import {Routes, Route, BrowserRouter} from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -29,6 +30,7 @@ root.render(
         <Route path="/IniciarSesion" element={<IniciarSesion/>}/>
         <Route path='/Prueba' element={<Prueba/>}/>
         <Route path='/Contactanos' element={<Contactanos/>}/>
+        <Route path='*' element={<Error404/>}/>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

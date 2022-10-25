@@ -13,7 +13,7 @@
 
 .cardprincipal1{
   position: relative;
-  left: 450px;
+
   top: 100px;
   float: left;
   padding: 10px;
@@ -52,6 +52,7 @@
   float: left;
   padding: 10px;
   margin-left: 50px;
+  
 
 }
 
@@ -111,5 +112,6 @@
   font-size: 20px;
 }
 .contenedor1{
-  align-items: center;
+  display: flex;
+  justify-content: center;
 }

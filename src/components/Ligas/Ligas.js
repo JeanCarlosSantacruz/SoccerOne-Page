@@ -7,13 +7,12 @@ function Ligas(){
   return(
   <div className='ligasMain'>
     <Navbar/>
-      <h1 className='soccerL'>
-        SOCCER
+      <h1 id='ligaTittle'>
+        Ligas
       </h1>
-      <h1 className='oneL'>
-        ONE
-      </h1>
-    <Cards/>
+    <div>
+      <Cards/>
+    </div>
   </div>
   )
 }
