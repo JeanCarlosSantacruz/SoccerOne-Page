@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import About from './components/About';
-import QuienesSomos from './components/QuienesSomos';
+import QuienesSomos from './components/QuienesSomos/QuienesSomos';
 import Ligas from './components/Ligas/Ligas';
 import IniciarSesion from './components/IniciarSesion/IniciarSesion';
 import Registro from './components/Registro/Registro';

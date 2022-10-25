@@ -1,9 +1,10 @@
 import React from 'react';
 import Card from './cardQuienesSomos';
 import './QuienesSomos.css';
-import   JeanCarlosS from './img/JeanCarlosS.JPG';
-import AlejandroC from './img/alejandro.jpg';
-import costeño from './img/costeño.jpg';
+import JeanCarlosS from '../img/JeanCarlosS.JPG';
+import AlejandroC from '../img/alejandro.jpg';
+import costeño from '../img/costeño.jpg';
+
 
 
 
