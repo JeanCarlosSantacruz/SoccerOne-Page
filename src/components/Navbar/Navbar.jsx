@@ -11,7 +11,7 @@ function Navbar() {
           <a href="/"><img src={logo} alt= "logo" /></a> 
         <Nav>
           <a href='/Ligas'>Ligas</a>
-          <a href='*'>Torneos</a>
+          <a href='/Torneos'>Torneos</a>
           <a href='*'>Selecciones</a>
           <a href='/IniciarSesion'>Iniciar sesion</a>
         </Nav>
