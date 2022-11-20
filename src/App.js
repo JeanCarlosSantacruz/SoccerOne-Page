@@ -1,13 +1,24 @@
-import './App.css';
+import {React, useState} from 'react';
 import Navbar from './components/Navbar/Navbar';
-import Navbar2 from './components/Navbar/Navbar';
-import Buttonini from './components/ButtonIni/Buttonini';
+import firebaseApp from './credenciales';
+import { getAuth, onAuthStateChanged } from 'firebase/auth';
+import Registro from './components/Registro/Registro';
+import IniciarSesion from './components/IniciarSesion/IniciarSesion';
+import Error404 from './components/Error404/Error404';
+import Pruebas from './components/Pruebas/Pruebas';
+import './App.css';
 
-
-
-
+const auth = getAuth(firebaseApp);
 
 function App() {
+  const [usuarioGlobal, setUsuarioGlobal] = useState(null);
+  onAuthStateChanged(auth, (usuarioFirebase)=>{
+    if (logueo.){
+      console.log("existe")
+    }else{
+      console.log("no existe")
+    }
+  })
   return (
     <div className='App'>
       <header class='header1'>
@@ -25,10 +36,11 @@ function App() {
       <h2 className='subText2'>
         sobre futbol!
       </h2>
-      
-      <a className='links' href='/QuienesSomos'>¿Quienes Somos?</a> 
-      <a className='links' href='/'>Informacion</a> 
-      <a className='links' href='/Contactanos'>Contactanos</a> 
+      <div className='containerApp'>
+        <a className='links' href='/QuienesSomos'>¿Quienes Somos?</a> 
+        <a className='links' href='*'>Ver más</a> 
+        <a className='links' href='*'>Contactanos</a> 
+      </div>
     </div>
   );
 }
