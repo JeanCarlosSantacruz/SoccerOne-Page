@@ -31,7 +31,7 @@ form {
 
 form label {
   position: relative;
-  top: 10 px;
+  top: 30px;
   margin-bottom: 35px;
 }
 
@@ -57,7 +57,7 @@ form label input::placeholder {
 
 form .link {
   position: relative;
-  top: 40px;
+  top: 55px;
   color:black;
   margin-bottom: 15px;
   transition: .2s;

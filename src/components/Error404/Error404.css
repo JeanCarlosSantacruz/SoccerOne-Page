@@ -47,3 +47,25 @@
   font-size: 200px;
   color: gray;
 }
+
+#home{
+  position: relative;
+  top: -60px;
+  font-size: 25px;
+  color: gray;
+  display: flex;
+  justify-content: center;
+  font-family: 'Open Sans';
+  font-style: normal;
+  letter-spacing: .5;
+  font-weight: 400;
+}
+
+.iconError{
+  position: relative;
+  top: 150px;
+  display: flex;
+  justify-content: center;    
+  font-size: 200px;
+  color: gray;
+}

@@ -1,0 +1,16 @@
+
+#boton{
+  position: relative;
+  top: 200px;
+  left: 600px;
+  background-color: black;
+  font-size: 22px;
+  color: white;
+  border-radius: 20px;
+  transition: .4s;
+}
+
+#boton:hover{
+  background-color: gray;
+  font-size: 28px;
+}
