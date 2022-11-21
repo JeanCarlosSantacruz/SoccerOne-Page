@@ -1,13 +1,10 @@
 
-
-
-.Timg{
-  width: 200px;
-  height: 120px;
+.Timgli{
+  width:100px;  height: 130px;
   border-radius:250px;
   transition: .6s;
 }
-.Timg:hover{
+.Timgli:hover{
   border-radius:50%;
   -webkit-border-radius:50%;
   box-shadow: 0px 0px 15px 15px rgb(56, 56, 56);
@@ -16,47 +13,20 @@
   height: 190px;
   width: 190px;
 }
-.t1{
 
-
-  font-family: 'Poppins',sans-serif;
-  font-style: italic;
-  font-weight: bold;
-  font-size: 100px;
-
-  color: black;
-}
-
-.t2{
+.cardprincipalli{
   position: relative;
-  top: -197px;
-  left: 420px;
-  right: 100PX;
-  font-family: 'Poppins',sans-serif;
-  font-style: italic;
-  font-weight: lighter;
-  font-size: 100px;
-  color: black;
-}
-
-#ligaTittle{
-  position: relative;
-  top: 20px;
-  font-size: 50px;
-}
-
-.ligas{
-  position: relative;
-  top: -230px;
-  text-decoration: underline;
-  font-family: 'Poppins',sans-serif;
-  font-style: italic;
-  font-weight: bold;
-  font-size: 80px;
-
-  color: black;
+  top: 100px;
+  width: 350px;
+  float: left;
+  padding: 10px;
+  margin-left: 250px;
+  border: black 3px solid;
+  border-radius: 50px;
 
 }
+
+
 
 .ligasMain{
   position: relative;
@@ -68,18 +38,6 @@
 
 }
 
-.cardprincipal{
-  position: relative;
-  top: 100px;
-  left: 470px;
-  width: 270px;
-  height: 400px;
-  padding: 10px;
-  margin-left: 50px;
-  border-color:#0000;
-  border: black 3px solid;
-  border-radius: 50px;
-}
 
 .ligasLinks{
   position: relative;
@@ -108,34 +66,3 @@
   font-size: 20px;
 }
 
-.soccerL{
-  position: relative;
-  top: 20px;
-  right: 530px;
-  font-family: 'Poppins',sans-serif;
-  font-style: italic;
-  font-weight: bold;
-  font-size: 100px;
-  color: black;
-}
-
-.oneL{
-  position: relative;
-  top: -162px;
-  right: 215px;
-  font-family: 'Poppins',sans-serif;
-  font-style: italic;
-  font-weight: lighter;
-  font-size: 100px;
-  color: black;
-}
-
-
-.cartas{
-  background-color: black;
-}
-
-.containerLigas{
-  display: flex;
-  align-items: center;
-}
