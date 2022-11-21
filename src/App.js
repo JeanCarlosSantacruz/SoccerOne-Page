@@ -11,14 +11,7 @@ import './App.css';
 const auth = getAuth(firebaseApp);
 
 function App() {
-  const [usuarioGlobal, setUsuarioGlobal] = useState(null);
-  onAuthStateChanged(auth, (usuarioFirebase)=>{
-    if (logueo.){
-      console.log("existe")
-    }else{
-      console.log("no existe")
-    }
-  })
+
   return (
     <div className='App'>
       <header class='header1'>
@@ -38,7 +31,7 @@ function App() {
       </h2>
       <div className='containerApp'>
         <a className='links' href='/QuienesSomos'>¿Quienes Somos?</a> 
-        <a className='links' href='*'>Ver más</a> 
+        <a className='links' href='/VerMas'>Ver más</a> 
         <a className='links' href='*'>Contactanos</a> 
       </div>
     </div>

@@ -7,80 +7,17 @@
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: rgb(255,255,255);
-  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,60,120,0.4654236694677871) 100%);
+  background-image: url("../img/fondo.png");
 }
 
-form {
-  display: flex;
-  flex-direction: column;
-  background: rgb(255, 255, 255);
-  text-align: center;
-  padding: 100px 80px;
-  box-shadow: 0 5px 10px rgba(71, 3, 6, 0.7);
-}
+
 
 .logoRegister{
   position: absolute;
-  margin-top: -370px;
-  margin-left: 105px;
+  margin-top: -400px;
+  margin-left: 110px;
   border-radius: 15px;
   width: 200px;
 }
 
 
-form label {
-  position: relative;
-  top: 30px;
-  margin-bottom: 35px;
-}
-
-form label .fa-solid {
-  font-size: 20px;
-  color: black;
-  margin-right: 10px;
-}
-
-form label input {
-  outline: none;
-  border: none;
-  color: #252525;
-  border-bottom: solid 1px #000000;
-  padding: 0 5px;
-  font-size: 18px;
-}
-
-form label input::placeholder {
-  color: rgba(37, 37, 37, 0.5);
-}
-
-
-form .link {
-  position: relative;
-  top: 55px;
-  color:black;
-  margin-bottom: 15px;
-  transition: .2s;
-}
-
-form .link:hover {
-  font-size: 17px;
-}
-
-form button {
-  position: relative;
-  top: 70px;
-  color: #a0a0a0;
-  border: none;
-  background: black;
-  padding: 10px 15px;
-  cursor: pointer;
-  font-size: 20px;
-  border-radius: 25px;
-  transition: 0.2s;
-}
-
-form button:hover{
-  color:white;
-  font-size: 22px;
-}

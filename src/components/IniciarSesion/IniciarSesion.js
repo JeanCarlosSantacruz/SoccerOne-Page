@@ -29,7 +29,7 @@ function IniciarSesion(){
     <div class='title'>
       <img src={logo} alt= "logo" className='logo'/>{} 
     </div>
-    <form onSubmit={iniciar}>
+    <form onSubmit={iniciar} id='divForm'>
       <label>
         <i class="fa-solid fa-envelope" id='correoI'></i>
         <input placeholder="correo"type="text" id="correo" ></input>

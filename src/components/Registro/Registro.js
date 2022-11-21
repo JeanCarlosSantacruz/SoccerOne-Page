@@ -25,7 +25,7 @@ function Registro(){
     <div class='title'>
       <img src={logoRegister} alt= "logo" className='logoRegister'/>{} 
     </div>
-    <form onSubmit={pulsar}>
+    <form onSubmit={pulsar} id='divForm'>
       <label>
         <i class="fa-solid fa-user"></i>
         <input placeholder="nombre"type="text" id="nombre"></input>

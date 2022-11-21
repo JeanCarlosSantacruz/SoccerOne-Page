@@ -7,17 +7,18 @@
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: rgb(255,255,255);
-  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,60,120,0.4654236694677871) 100%);
+  background-image: url("../img/fondo.png");
 }
 
 form {
   display: flex;
   flex-direction: column;
-  background: rgb(255, 255, 255);
   text-align: center;
   padding: 100px 80px;
-  box-shadow: 0 5px 10px rgba(71, 3, 6, 0.7);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  background-color: rgba(0,0,0,0.1);
 }
 
 .logo {
@@ -31,7 +32,7 @@ form {
 
 form label {
   position: relative;
-  top: 10 px;
+  top: 10px;
   margin-bottom: 35px;
 }
 
@@ -44,15 +45,18 @@ form label .fa-solid {
 form label input {
   outline: none;
   border: none;
-  color: #252525;
-  border-bottom: solid 1px #000000;
+  color: white;
   padding: 0 5px;
   font-size: 18px;
+  background-color: rgba(0,0,0,0.1);
+  border-radius: 10px;
+  height: 30px;
 }
 
 form label input::placeholder {
-  color: rgba(37, 37, 37, 0.5);
+  color: rgba(0, 0, 0, 0.75);
 }
+
 
 
 form .link {
@@ -60,11 +64,12 @@ form .link {
   top: 40px;
   color:black;
   margin-bottom: 15px;
-  transition: .2s;
+  transition: .6s;
 }
 
 form .link:hover {
   font-size: 17px;
+  color: white;
 }
 
 form button {
@@ -76,7 +81,7 @@ form button {
   padding: 10px 15px;
   cursor: pointer;
   font-size: 20px;
-  border-radius: 25px;
+  border-radius: 20px;
   transition: 0.2s;
 }
 
@@ -88,8 +93,10 @@ form button:hover{
 #eye{
   position: absolute;
   margin-left: -30px;
+  margin-top: 4px;
 }
 
 #eye:hover{
   cursor: pointer;
 }
+

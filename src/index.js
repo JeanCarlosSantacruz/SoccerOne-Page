@@ -12,6 +12,7 @@ import Torneos from './components/Torneos/Torneos';
 import Contactanos from './components/Contactanos/Contactanos';
 import Error404 from './components/Error404/Error404';
 import Pruebas from './components/Pruebas/Pruebas';
+import VerMas from './components/Ver+/Ver+';
 import {Routes, Route, BrowserRouter} from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -29,6 +30,7 @@ root.render(
         <Route path="/IniciarSesion" element={<IniciarSesion/>}/>
         <Route path='/Contactanos' element={<Contactanos/>}/>
         <Route path='/Pruebas' element={<Pruebas/>}/>
+        <Route path='/VerMas' element={<VerMas/>}/>
         <Route path='*' element={<Error404/>}/>
       </Routes>
     </BrowserRouter>
