@@ -2,11 +2,14 @@ import React from "react";
 import './Pruebas.css'
 
 function pruebas(){
-  const pulsar = () =>{
-    console.log("Me has pulsado")
-  }
   return(
-    <button id="boton" onClick={()=>{pulsar()}}>Pulsame!</button>
+    <body>
+      <div id="div1"> 
+        <div id="div2">
+        </div>
+      </div>
+    </body>
+    
   )
 }
 
