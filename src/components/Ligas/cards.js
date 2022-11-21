@@ -4,14 +4,21 @@ import './Ligas.css'
 import   premierleage from './img/Premier-League-Logo.png'
 import laliga from './img/laliga.png'
 import bundes from './img/bundes.png'
+import Premier from '../premierleage/premier';
+import { useNavigate } from 'react-router-dom';
+
+
 
 const card = [
+  
+  
   {
     id: 1,
     title: 'Premier leage',
     image: premierleage, 
-    dat: 'La Premier League, también conocida en Inglaterra como The Premiership, es la máxima categoría del sistema de ligas de fútbol de Inglaterra.'
-
+    dat: 'La Premier League, también conocida en Inglaterra como The Premiership, es la máxima categoría del sistema de ligas de fútbol de Inglaterra.',
+    
+    linkdat: 'textolink'
   },
 
   {
@@ -36,7 +43,7 @@ function Cards() {
         {
           card.map(card =>(
             <div className='Ord-card' key={card.id}>
-                <Card title = {card.title}  imageSource= {card.image}  dat= {card.dat}/>
+                <Card title = {card.title}  imageSource= {card.image}  dat= {card.dat} linkdat = {card.linkdat}/>
               </div>
           ))
         }

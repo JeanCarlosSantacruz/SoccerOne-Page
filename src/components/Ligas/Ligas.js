@@ -10,9 +10,9 @@ function Ligas(){
       <h1 id='ligaTittle'>
         Ligas
       </h1>
-    <div>
-      <Cards/>
-    </div>
+      <div>
+        <Cards/>
+      </div>
   </div>
   )
 }
