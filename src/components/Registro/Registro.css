@@ -7,14 +7,14 @@
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background-image: url("../img/fondo.png");
+  background-image: url("../img/castroBackgroun.jpg");
 }
 
 
 
 .logoRegister{
   position: absolute;
-  margin-top: -400px;
+  margin-top: -430px;
   margin-left: 110px;
   border-radius: 15px;
   width: 200px;

@@ -2,26 +2,42 @@ import React, {useState} from "react";
 import './Registro.css'
 import logoRegister from '../soccerone2.svg'
 import firebaseApp from '../../credenciales';
-import {getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signInWithRedirect, GoogleAuthProvider,} from "firebase/auth";
+import {getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword} from "firebase/auth";
 
 const auth = getAuth(firebaseApp);
-const googleProvider = new GoogleAuthProvider();
+
 
 function Registro(){
+  const [mensaje, setMensaje] = useState("")
   async function pulsar(e){
     e.preventDefault();
-    console.log("funciona")
+    const nombre = e.target.nombre.value
     const correo = e.target.correoUser.value;
     const contra = e.target.contraUser.value;
-    const usuario = await createUserWithEmailAndPassword(
-      auth, 
-      correo, 
-      contra);
+    const contraV = e.target.contraUserV.value
+    if (nombre.length == 0 || correo.length == 0 || contra.length == 0 || contraV.length == 0 ){
+      setMensaje("Complete todos los campos")
+    }
+    if(contra != contraV){
+      setMensaje("Las contraseñas no coinciden")
+    }
+    if (!correo.includes("@gmail.com") && (!correo.includes("@hotmail.com")))  {
+      setMensaje("correo invalido")
+    }
+    if (contra.length < 6){
+      setMensaje("contraseña minimo 6 caracteres")
+    }
+    const usuario = await createUserWithEmailAndPassword(auth, correo, contra).catch(function(error){
+      var errorCode = error.code;
+      var errorMessage = error.message;
+      if ( errorCode === 'auth/email-already-in-use' ){
+        setMensaje("Ya existe una cuenta con este correo")
+      }
+    })
   }
   const [showPass, setShowPass] = useState(false);
 
   return<div className='Registro'>
-    
     <div class='title'>
       <img src={logoRegister} alt= "logo" className='logoRegister'/>{} 
     </div>
@@ -41,9 +57,10 @@ function Registro(){
       </label>
       <label>
         <i class="fa-sharp fa-solid fa-lock"></i>
-        <input placeholder="confirmas contraseña"type={showPass ? "text" : 'password'} id="confirmas contraseña"></input>
+        <input placeholder="confirmas contraseña"type={showPass ? "text" : 'password'} id="contraUserV"></input>
         {showPass ? <i class="fa-solid fa-eye" id='eye' onClick={()=> setShowPass(!showPass)}></i> : <i class="fa-sharp fa-solid fa-eye-slash" id='eye' onClick={()=> setShowPass(!showPass)}></i> }
       </label>
+      <p>{mensaje}</p>
       <a href='/' class="link">cancelar</a>
         <float href='/Registro' class="link">¿Ya tienes cuenta?</float>  <a href='/IniciarSesion' class="link">Iniciar sesion</a> 
         <button id="button" >Crear cuenta</button>

@@ -56,7 +56,7 @@ a{
 a:after{
   content: "";
   position: absolute;
-  background-color: #ff3c78;
+  background-color: white;
   height: 3px;
   width: 0;
   left: 0;
