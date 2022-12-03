@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import './Registro.css'
 import logoRegister from '../soccerone2.svg'
 import firebaseApp from '../../credenciales';
-import {getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword} from "firebase/auth";
+import {getAuth, createUserWithEmailAndPassword} from "firebase/auth";
 
 const auth = getAuth(firebaseApp);
 
@@ -15,10 +15,10 @@ function Registro(){
     const correo = e.target.correoUser.value;
     const contra = e.target.contraUser.value;
     const contraV = e.target.contraUserV.value
-    if (nombre.length == 0 || correo.length == 0 || contra.length == 0 || contraV.length == 0 ){
+    if (nombre.length === 0 || correo.length == 0 || contra.length == 0 || contraV.length == 0 ){
       setMensaje("Complete todos los campos")
     }
-    if(contra != contraV){
+    if(contra !== contraV){
       setMensaje("Las contraseñas no coinciden")
     }
     if (!correo.includes("@gmail.com") && (!correo.includes("@hotmail.com")))  {

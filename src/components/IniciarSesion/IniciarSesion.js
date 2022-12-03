@@ -24,7 +24,6 @@ function IniciarSesion(){
       setMensaje("contraseña minimo 6 caracteres")
     }
     else if (!correo.includes("@gmail.com") && (!correo.includes("@hotmail.com")))  {
-
       setMensaje("correo invalido")
     }
     const logueo = await signInWithEmailAndPassword(auth, correo, contra).catch(function(error){
@@ -37,7 +36,8 @@ function IniciarSesion(){
     if (logueo.user =! null){
       navigate("/");
     }
-  } 
+  }
+
   const singUpGoogle = ()=>{
     console.log("te has logueado con Google");
     signInWithRedirect(auth, googleProvider);
@@ -66,7 +66,6 @@ function IniciarSesion(){
         
       </div>
       <button id="button">Iniciar sesion</button>
-      
     </form>
   </div>
 }
