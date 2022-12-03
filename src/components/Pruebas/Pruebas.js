@@ -22,5 +22,4 @@ function pruebas(){
 }
 
 
-
 export default pruebas
